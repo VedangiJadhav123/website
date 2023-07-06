@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Tilt+Prism&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(71, 216, 143);
+    /*width: 434px;*/
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 40px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 23px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /*background-color: aquamarine;*/
+    height: 58vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 16px;
+
+}
+
+.devInfo{
+    font-size: 8px;
+}
+
+.Hello {
+    font-size: 3em;
+    
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 23px;
+}
+
+.buttons {
+    margin-top: 2.2em;
+    font-size: 5px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+
+.devPic img {
+    height: 58vh;
+}
+
+.contactForm{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Oswald', sans-serif; 
+    margin: 0  88px;
+}
+
+.contactForm h1{
+    font-family: 'Tilt Prism', cursive;
+    padding: 12px 0;
+
+}
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width: 26vw;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactForm form {
+    margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+.intro h2{
+    font-family: 'Tilt Prism', cursive;
+    margin: 0 61px;
+    padding: 26px;
+
+}
+.intro{
+    margin:88px;
+}
+
+.intro p{
+    font-family: 'Oswald', sans-serif;
+    margin:  0 88px;
+
+}
+.skillcontainer{
+    padding: 12px;
+    margin: 0 88px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 265px;
+    background-color: aqua;
+}
+
+.fifty{
+    width: 125px;
+    background-color: rgb(188, 16, 145);
+}
+
+.thirty-five{
+    width: 110px;
+    background-color: aquamarine;
+}
+
+.projectcontainer{
+    padding: 18px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    margin: 0 88px;
+}
+
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.humburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 144px;   
+    margin-top: 8px;
+}
+
+.devPic{
+    display: none;
+}
+.buttons{
+    font-size: 10px;
+}
+/*@media (max-width: 1615px){
+   *{
+
+    /*background-color: rgb(225, 105, 105);*/
+ /*  }
+
+    
+}
+
+.sidebar{
+    transform: translate(-443, 0px);
+    position: absolute;
+}
+*/
+
+.intro,.contactForm{
+    margin: 50px 8px;
+}
+
+.servicescontainer{
+    padding: 12px;
+    margin: 0 88px;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.s2{
+    width: 265px;
+    height: 6px;
+    /*background-color: blueviolet;
+    border: 2px solid black;*/
+}
+
+.acccontainer{
+    padding: 12px;
+    margin: 0 88px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ac{
+    width: 265px;
+    height: 6px;
+    /*background-color: blueviolet;
+    border: 2px solid black;*/
+}
+
+
+
